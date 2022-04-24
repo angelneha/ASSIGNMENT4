@@ -1,0 +1,337 @@
+       *{
+           margin: 0;
+           padding: 0;
+       }
+      .wholeDiv {
+           border: 0.1875rem;
+            font-family: sans-serif;
+        }
+
+        @media(max-width:998px){
+            html{
+                font-size: 55%;
+            }
+            
+        } 
+            
+        @media(max-width:768px){
+            html{
+                font-size: 45%;
+            }
+        }
+
+        .firstDiv,
+        .secondDiv,
+        .thirdDiv,
+        .fourthDiv,
+        .fifthDiv,
+        .sixthDiv,
+        .seventhDiv,
+        .eighthDiv,
+        .ninethDiv {
+            position: relative;
+            width: 100%;
+            height: 31.25rem;
+            background: #1F1627;
+            color: #fff;
+            text-align: center;
+            font-size: 1.3125rem;
+            margin-bottom: 7%;
+        }
+        .lastDiv{
+            position: relative;
+            width: 100%;
+            height: 31.25rem;
+            background: #1F1627;
+            color: #fff;
+            text-align: center;
+            font-size: 1.3125rem;
+        }
+
+        .firstDiv::after,
+        .secondDiv::after,
+        .thirdDiv::after,
+        .fourthDiv::after,
+        .fifthDiv::after,
+        .sixthDiv::after,
+        .seventhDiv::after,
+        .eighthDiv::after,
+        .ninethDiv::after{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            content: '';
+            background: inherit;
+            z-index: -1;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            transform-origin: top right;
+            transform: skewY(-4deg);
+        }
+
+        .secondDiv::before,
+        .thirdDiv::before,
+        .fourthDiv::before,
+        .fifthDiv::before,
+        .sixthDiv::before,
+        .seventhDiv::before,
+        .eighthDiv::before,
+        .ninethDiv::before,
+        .lastDiv::before {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            content: '';
+            background-color: #EAE1D8;
+            z-index: -1;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            transform-origin: bottom left;
+            transform: skewY(-4deg);
+        }
+    
+        .lastDiv{
+            background-color: #b3d2d6;
+            color: #000;
+            background-image: url("/photos/solid\ blue\ color\ backgrounds\ 3.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+        }
+        .lastDiv::before{
+            background-color: #b3d2d6;
+            background-image: url("/photos/solid\ blue\ color\ backgrounds\ 3.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .secondDiv{
+            background-color: #EAE1D8;
+            color: #000;
+            background-image: url("/photos/Background-images-HD-Solid-Color-Wallpaper-620x343.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        
+        }
+        .secondDiv::before{
+            background-color: #EAE1D8;
+            background-image: url("/photos/Background-images-HD-Solid-Color-Wallpaper-620x343.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .fourthDiv{
+            background-color: pink;
+            color: #000;
+            background-image: url("/photos/SZNLJ6R.webp");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .fourthDiv::before{
+            background-color: pink;
+            background-image: url("/photos/SZNLJ6R.webp");
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+        }
+        .fifthDiv{
+            background-color: #eda1ca;
+            background-image: url("/photos/Amazing-Solid-Pink-Background-.webp");
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+        }
+        .fifthDiv::before{
+            background-color: #eda1ca;
+            background-image: url("/photos/Amazing-Solid-Pink-Background-.webp");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .sixthDiv{
+            background-color: rgb(163, 224, 252);
+            background-image: url("/photos/Amazing-Solid-Backgrounds.webp");
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+        }
+        .sixthDiv::before{
+            background-color: rgb(163, 224, 252);
+            background-image: url("/photos/Amazing-Solid-Backgrounds.webp");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .seventhDiv{
+            background-color: #1F1627 ;
+            color:pink;
+            background-image: url("/photos/1475007-solid-desktop-wallpapers-1920x1080-phone.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .seventhDiv::before{
+            background-color: #1F1627;
+            background-image: url("/photos/1475007-solid-desktop-wallpapers-1920x1080-phone.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+        .eighthDiv{
+            background-color: #ecc6da;
+            color: #000;
+            background-image: url("/photos/Marvellous-Solid-Color-Background.webp");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .eighthDiv::before{
+            background-color:#ecc6da;
+            background-image: url("/photos/Marvellous-Solid-Color-Background.webp");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .ninethDiv{
+            background-color: #EAE1D8;
+            color: #000;
+            background-image: url("/photos/Background-images-HD-Solid-Color-Wallpaper-620x343.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .ninethDiv::before{
+            background-color: #EAE1D8;
+            background-image: url("/photos/Background-images-HD-Solid-Color-Wallpaper-620x343.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .thirdDiv{
+            background-color: #1F1627;
+            color: #EAE1D8;
+            background-image: url("/photos/538204.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .thirdDiv::before {
+            background: #1F1627;
+            background-image: url("/photos/538204.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+
+        .bgWhite {
+            background-color: white;
+        }
+
+        .borderRadius {
+            border-radius: 3.125rem 3.125rem 0 0;
+        }
+
+        .fieldSet {
+            height: 372.625rem;
+            position: absolute;
+            border: 0.125rem dotted #fff;
+            width: 85%;
+            z-index: 2;
+            left: 7%;
+            right: 0;
+            top: 7.3125rem;
+            border-radius: 3.125rem;
+            border-bottom: none;
+        }
+
+        .ifactoryStyle {
+            position: absolute;
+            text-align: center;
+            top: -0.8125rem;
+            left: 41%;
+            color: #ffff;
+            width: 12.0625rem;
+            background: #1F1627;
+            font-style: italic;
+            font-size: 1.5625rem;
+        }
+
+        .pad15 {
+            padding-top: 7%;
+        }
+
+        .marBottom {
+            margin-bottom: 0.625rem;
+            font-family: console;
+            font-size: 1.875rem;
+            padding: 0.9375rem;
+            padding-left: 1.5625rem;
+        }
+
+        .weightClass {
+            font-size: 7.5rem;
+        }
+
+        .centerAlign {
+            text-align: left;
+            padding: 2.1875rem 12.5rem;
+            line-height: 1.5;
+            font-family: sans-serif;
+            padding-left: 18.75rem;
+        }
+
+        .consoleClass {
+            font-family: console;
+            letter-spacing: 0.1875rem;
+        }
+
+        div.normalStyle {
+            padding: 0 0.125rem 0.125rem 5.3125rem;
+            font-weight: lighter;
+            font-family: serif;
+            font-size: 100%;
+        }
+
+        div.normalStyleOdd {
+            padding: 0 0.125rem 0.125rem 12.8125rem;
+            font-weight: lighter;
+            font-family: serif;
+            font-size: 100%;
+        }
+
+        .padOdd {
+            padding: 0 0.125rem 0.125rem 7.8125rem;
+        }
+
+        .f30 {
+            font-size: 1.875rem;
+        }
+
+        .posThird {
+            position: relative;
+            top: 2.5rem;
+            left: 0.625rem;
+        }
+
+        .posOpp {
+            padding-left: 4.875rem;
+            position: relative;
+            top: -3rem;
+        }
+
+        .normalStyle {
+            padding-left: 12.1875rem;
+            padding-bottom: 1.25rem;
+            line-height: 1.5;
+        }
+
+        @media(max-width: 460px){
+            .fieldSet {
+                height: 365.625rem;
+                position: absolute;
+                border: 0.125rem dotted #fff;
+                width: 85%;
+                z-index: 2;
+                left: 7%;
+                right: 0;
+                top: 3rem;
+                border-radius: 3.125rem;
+                border-bottom: none;
+            }
+        } 
